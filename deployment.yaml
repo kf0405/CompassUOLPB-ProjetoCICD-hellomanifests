@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
       - name: hello-app
-        image: DOCKERHUB_USER/hello-app:latest 
+        image: kf0405/hello-app:latest 
         ports:
         - containerPort: 80
